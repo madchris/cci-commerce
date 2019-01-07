@@ -1,0 +1,29 @@
+<?php
+
+function cci_cpnt_commerce_content_install() {
+  $moduleHandler = \Drupal::service('module_handler');
+  if ($moduleHandler->moduleExists('commerce_store')) {
+    $store = \Drupal\commerce_store\Entity\Store::create([
+      'type' => 'online',
+      'name' => 'CCI',
+      'mail' => 'ccitest@test.fr',
+      'default_currency' => 'EUR',
+      'address__langcode' => 'fr',
+      'address__country_code' => 'FR',
+      'address__administrative_area' => NULL,
+      'address__locality' => 'lyon',
+      'address__dependent_locality' => NULL,
+      'address__postal_code' => '69007',
+      'address__sorting_code' => '',
+      'address__address_line1' => '22 rue commandant ayasse',
+      'address__address_line2' => '',
+      'address__organization' => NULL,
+      'address__given_name' => NULL,
+      'address__additional_name' => NULL,
+      'address__family_name' => NULL,
+      'default_langcode' => 1,
+      'prices_include_tax' => 1,
+    ]);
+    $store->save();
+  }
+}
