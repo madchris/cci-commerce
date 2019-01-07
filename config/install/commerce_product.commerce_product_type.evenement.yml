@@ -1,0 +1,14 @@
+uuid: e19af89c-ac41-47d7-a3b7-96296f9f29d2
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: NUqeb_cz27ncFzQ6POzweLWpFuLHWOOGlKHzyAYtnZg
+id: evenement
+label: évènement
+description: ''
+variationType: evenement
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

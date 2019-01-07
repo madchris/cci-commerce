@@ -1,0 +1,20 @@
+uuid: e605a424-67df-4634-b920-7e1713ec6d7a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.abonnement
+_core:
+  default_config_hash: pW-F_xoFAfIQGAlWVUBSp_aeg5MTyBZ9O9L6FFYAqj8
+id: commerce_product.abonnement.title
+field_name: title
+entity_type: commerce_product
+bundle: abonnement
+label: Title
+description: 'The product title.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

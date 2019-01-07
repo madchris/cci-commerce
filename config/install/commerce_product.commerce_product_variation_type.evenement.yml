@@ -1,0 +1,12 @@
+uuid: f023a423-4109-49be-8332-7a7b8972de1e
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: xK8u6NBYjO2KfWXkU1I8eLc-jtb3VgQ20fQTf-vGbrI
+id: evenement
+label: évènement
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

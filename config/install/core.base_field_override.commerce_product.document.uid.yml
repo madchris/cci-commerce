@@ -1,0 +1,22 @@
+uuid: aa2c41f8-434a-4aba-8b3a-3ed6498a62d2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+_core:
+  default_config_hash: QvaikpRiNsvT_SwcOejLaSrgDGiMaKkMZTWknLnpSpo
+id: commerce_product.document.uid
+field_name: uid
+entity_type: commerce_product
+bundle: document
+label: Author
+description: 'The product author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\Product::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

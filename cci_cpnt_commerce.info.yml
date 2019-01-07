@@ -1,0 +1,31 @@
+name: E-commerce
+type: module
+description: "Active les fonctionnalités d'e-commerce"
+package: CCI
+# core: 8.x
+
+'interface translation project': commerce
+'interface translation server pattern': modules/custom/cci_cpnt_commerce/translations/commerce-8.x-2.11.fr.po
+
+# Information added by Drupal.org packaging script on 2018-12-18
+version: '8.x-1.0'
+core: '8.x'
+project: 'cci'
+datestamp: 1511982791
+dependencies:
+  - commerce
+  - commerce_add_to_cart_link
+  - commerce_cart
+  - commerce_checkout
+  - commerce_log
+  - commerce_order
+  - commerce_payment
+  - commerce_price
+  - commerce_product
+  - commerce_stock
+  - commerce_stock_enforcement
+  - commerce_stock_field
+  - commerce_stock_local
+  - commerce_stock_ui
+  - commerce_store
+  - commerce_tax

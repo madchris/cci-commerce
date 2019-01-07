@@ -1,0 +1,20 @@
+uuid: 81ef2959-8a8b-4756-bd3a-c335cd4975b6
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: s27uew9wKtHE8dJxUPk7FafJqSmRe2HnHeX3Id_d_FE
+id: paypal
+label: paypal
+weight: -10
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: 'Paiement par paypal'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

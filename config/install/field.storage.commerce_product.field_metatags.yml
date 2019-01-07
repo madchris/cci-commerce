@@ -1,0 +1,21 @@
+uuid: e6189d0f-9212-4fe0-bf0d-b21c81817e4c
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - metatag
+_core:
+  default_config_hash: mRFFFC8wS0SKLEUhYSjQlsa9ObI_iYf_I0hHfpjMVrw
+id: commerce_product.field_metatags
+field_name: field_metatags
+entity_type: commerce_product
+type: metatag
+settings: {  }
+module: metatag
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

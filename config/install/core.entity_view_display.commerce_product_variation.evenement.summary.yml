@@ -1,0 +1,38 @@
+uuid: 751e5885-0f3f-4030-bf3a-d6dbb0fda309
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.evenement
+    - core.entity_view_mode.commerce_product_variation.summary
+    - field.field.commerce_product_variation.evenement.field_body
+    - field.field.commerce_product_variation.evenement.field_date
+    - field.field.commerce_product_variation.evenement.field_stock
+  module:
+    - commerce_price
+_core:
+  default_config_hash: wI_7DLbyBO-VUo9TIWsHuzTbTkaSfp2hgLEqF3fFpek
+id: commerce_product_variation.evenement.summary
+targetEntityType: commerce_product_variation
+bundle: evenement
+mode: summary
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  add_to_cart_link: true
+  field_body: true
+  field_date: true
+  field_stock: true
+  langcode: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true

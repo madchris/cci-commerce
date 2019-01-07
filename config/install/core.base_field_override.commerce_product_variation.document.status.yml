@@ -1,0 +1,24 @@
+uuid: bd79e781-d77f-4b41-95e2-c67aaa8cea75
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.document
+_core:
+  default_config_hash: RvCuodJzdrl_N7xVMEAvANHrd4qEJRNCOhWv7YI_BoQ
+id: commerce_product_variation.document.status
+field_name: status
+entity_type: commerce_product_variation
+bundle: document
+label: Active
+description: 'Whether the variation is active.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: b79f25e7-970b-4f8f-be5f-4f3c62ff0876
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+_core:
+  default_config_hash: W7BKsxAUtkcZCGfeLR30lyERGngpOfmJ3Hdlt8d4Rqw
+id: commerce_product.document.created
+field_name: created
+entity_type: commerce_product
+bundle: document
+label: Created
+description: 'The time when the product was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

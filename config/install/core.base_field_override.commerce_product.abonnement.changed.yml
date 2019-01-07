@@ -1,0 +1,20 @@
+uuid: d0df2143-9f82-4cf5-abe4-14544f840d76
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.abonnement
+_core:
+  default_config_hash: _1w6ijHZUw36YY3csigQgTyDw4z988fwLC3J-WKpoE8
+id: commerce_product.abonnement.changed
+field_name: changed
+entity_type: commerce_product
+bundle: abonnement
+label: Changed
+description: 'The time when the product was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

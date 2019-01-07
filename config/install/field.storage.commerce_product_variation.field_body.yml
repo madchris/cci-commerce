@@ -1,0 +1,21 @@
+uuid: c19b4057-4353-494f-852d-6f12e04544d0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+_core:
+  default_config_hash: FIxU--2lEBbsFsJP_9m8ynqf6vpZYkBt-_nLLh66oJQ
+id: commerce_product_variation.field_body
+field_name: field_body
+entity_type: commerce_product_variation
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

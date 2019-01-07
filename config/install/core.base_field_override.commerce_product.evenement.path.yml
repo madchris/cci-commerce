@@ -1,0 +1,22 @@
+uuid: 2a3b5b7a-f36d-4057-850e-8693e9a39da0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.evenement
+  module:
+    - path
+_core:
+  default_config_hash: evq9m0fsCH7RaWGMBN1RJKTf1lLpHj1isjthts9xbjM
+id: commerce_product.evenement.path
+field_name: path
+entity_type: commerce_product
+bundle: evenement
+label: 'URL alias'
+description: 'The product URL alias.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

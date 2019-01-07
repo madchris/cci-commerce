@@ -1,0 +1,25 @@
+uuid: b71ec8d1-ef3d-480b-a912-723d143b68f1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - file
+_core:
+  default_config_hash: 3pt6sHgVb4rpXTJ70EYT_GQFmc8xrmMX_3_4OwFZ1JE
+id: commerce_product_variation.field_file
+field_name: field_file
+entity_type: commerce_product_variation
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

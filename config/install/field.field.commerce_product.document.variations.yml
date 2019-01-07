@@ -1,0 +1,26 @@
+uuid: 694f6ee9-1bb7-4bbb-b457-da2bd7ffd542
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+    - commerce_product.commerce_product_variation_type.document
+    - field.storage.commerce_product.variations
+_core:
+  default_config_hash: 9R-kChY7eBCW7d_xtCuU55asn0XYv3qkAM_9e2qwsI0
+id: commerce_product.document.variations
+field_name: variations
+entity_type: commerce_product
+bundle: document
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - document
+field_type: entity_reference

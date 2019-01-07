@@ -1,0 +1,20 @@
+uuid: db861552-57e1-48cc-8354-0b9975704427
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.abonnement
+_core:
+  default_config_hash: VbX2Kl_L4tXOteiyWLLELznN6lX3roKhqTUlKER3se0
+id: commerce_product_variation.abonnement.title
+field_name: title
+entity_type: commerce_product_variation
+bundle: abonnement
+label: Title
+description: 'The variation title.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

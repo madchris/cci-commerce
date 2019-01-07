@@ -1,0 +1,29 @@
+uuid: 938e2c4a-db96-4772-bbe0-463e181618fb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.document
+    - field.storage.commerce_product_variation.field_file
+  module:
+    - file
+_core:
+  default_config_hash: kagIcmnebeizYL6UU5QiDjY2i_VLXFmkv7-zkZL93AE
+id: commerce_product_variation.document.field_file
+field_name: field_file
+entity_type: commerce_product_variation
+bundle: document
+label: file
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: ''
+  file_extensions: pdf
+  max_filesize: ''
+  description_field: false
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: file

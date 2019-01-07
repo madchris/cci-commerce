@@ -1,0 +1,16 @@
+uuid: 043413bd-916c-4794-8d8c-d9b4c31a44c1
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_log
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+_core:
+  default_config_hash: re9PIUN5sRXhWUhtRD9iwYbcq_r4vHBo24rA1e69554
+id: commerce_log.token
+label: Token
+targetEntityType: commerce_log
+cache: true

@@ -1,0 +1,22 @@
+uuid: 899a6e51-d7f4-4d0b-9b24-2d87cccd71ba
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.abonnement
+_core:
+  default_config_hash: RbDfXxorkrV7KQmWHP-RkPTm8JLXOnkHdoo9VHKmjcM
+id: commerce_product_variation.abonnement.uid
+field_name: uid
+entity_type: commerce_product_variation
+bundle: abonnement
+label: Author
+description: 'The variation author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\ProductVariation::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

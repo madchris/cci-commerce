@@ -1,0 +1,12 @@
+uuid: fea7dcb7-c480-44c1-bdc1-50c9d85281af
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6sjw3k1PU8MVvIm77gjGS25Mi58HcJRkUtTC_n4iBSk
+id: document
+label: document
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

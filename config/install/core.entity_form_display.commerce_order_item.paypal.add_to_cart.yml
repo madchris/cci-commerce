@@ -1,0 +1,36 @@
+uuid: e613a5aa-9434-46c2-b0d3-cc22f9dc59a8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.paypal
+    - core.entity_form_mode.commerce_order_item.add_to_cart
+  module:
+    - commerce_order
+_core:
+  default_config_hash: cOfYH0bhWtC-QsChmAvF5mJWJCVNnSt8K5UXKzAa1do
+id: commerce_order_item.paypal.add_to_cart
+targetEntityType: commerce_order_item
+bundle: paypal
+mode: add_to_cart
+content:
+  purchased_entity:
+    type: entity_reference_autocomplete
+    weight: -1
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+  quantity:
+    type: commerce_quantity
+    weight: 1
+    region: content
+    settings:
+      step: '1'
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  unit_price: true

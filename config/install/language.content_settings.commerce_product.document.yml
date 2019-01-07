@@ -1,0 +1,13 @@
+uuid: a96ec14f-aea9-45cb-b324-c0b28fb321eb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+_core:
+  default_config_hash: YxEL7pv-ZqrOI6KvqsP2ZZou_g1OWSOtvMECrEgQyic
+id: commerce_product.document
+target_entity_type_id: commerce_product
+target_bundle: document
+default_langcode: site_default
+language_alterable: false

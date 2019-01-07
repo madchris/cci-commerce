@@ -1,0 +1,20 @@
+uuid: c79eaadd-8bf0-4202-954c-bd88ea7b6097
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 6L03bzZvTUVW1_DSVZ-uBvNHUy1fFtuZNGvTc9C-CIE
+id: cheque
+label: chèque
+weight: -10
+plugin: manual
+configuration:
+  instructions:
+    value: ''
+    format: plain_text
+  display_label: 'Paiement par chèque'
+  mode: n/a
+  payment_method_types:
+    - credit_card
+conditions: {  }
+conditionOperator: AND

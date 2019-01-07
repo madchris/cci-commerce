@@ -1,0 +1,13 @@
+uuid: ba9680ec-329b-4cd9-8760-499a49999ed8
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+_core:
+  default_config_hash: _CVE13ViwVN2Mb8Ysmnlj42aKlw3c_yM5KDBBBsrRkw
+id: commerce_store.online
+target_entity_type_id: commerce_store
+target_bundle: online
+default_langcode: site_default
+language_alterable: false

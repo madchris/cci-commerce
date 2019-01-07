@@ -1,0 +1,13 @@
+uuid: 3f4416b9-c03d-4ec9-9e7a-d675077dec24
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.document
+_core:
+  default_config_hash: k8SuLUnhKuBCKQfSsSd-dA8aaaVmYhEF6R-Xjyza4fc
+id: commerce_product_variation.document
+target_entity_type_id: commerce_product_variation
+target_bundle: document
+default_langcode: site_default
+language_alterable: false

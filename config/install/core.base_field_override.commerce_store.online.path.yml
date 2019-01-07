@@ -1,0 +1,22 @@
+uuid: 304ea425-4c92-413f-a863-ebe0a744dbf2
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+  module:
+    - path
+_core:
+  default_config_hash: OZP6CFCUs5FwQaMcnm1559s7igrWnwDTYtPxwWDqR28
+id: commerce_store.online.path
+field_name: path
+entity_type: commerce_store
+bundle: online
+label: 'URL alias'
+description: 'The store URL alias.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

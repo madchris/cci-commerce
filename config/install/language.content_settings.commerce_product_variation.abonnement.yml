@@ -1,0 +1,13 @@
+uuid: 542fc198-8c42-4fc3-984c-e6659b5e7456
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.abonnement
+_core:
+  default_config_hash: AJDUAP89lUezLPpLNv3WwFhXklKTpgDVi0728pYEFnc
+id: commerce_product_variation.abonnement
+target_entity_type_id: commerce_product_variation
+target_bundle: abonnement
+default_langcode: site_default
+language_alterable: false

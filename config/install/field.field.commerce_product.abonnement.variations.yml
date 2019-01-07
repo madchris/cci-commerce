@@ -1,0 +1,26 @@
+uuid: bb905ffa-03ef-4022-ab81-fccebc484392
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.abonnement
+    - commerce_product.commerce_product_variation_type.abonnement
+    - field.storage.commerce_product.variations
+_core:
+  default_config_hash: 5BSwxIRcR6OX8OMZiwj4KeueSsstVBN0oTdChb32UlY
+id: commerce_product.abonnement.variations
+field_name: variations
+entity_type: commerce_product
+bundle: abonnement
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - abonnement
+field_type: entity_reference

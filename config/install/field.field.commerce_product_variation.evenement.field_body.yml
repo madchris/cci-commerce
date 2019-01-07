@@ -1,0 +1,23 @@
+uuid: e013256d-e2a4-485e-ada6-0f7e1bbbb42d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.evenement
+    - field.storage.commerce_product_variation.field_body
+  module:
+    - text
+_core:
+  default_config_hash: lqX_F7-zTYSJqujhlzN2z_tbbNqsXMVwvtdkp5Jng0g
+id: commerce_product_variation.evenement.field_body
+field_name: field_body
+entity_type: commerce_product_variation
+bundle: evenement
+label: body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

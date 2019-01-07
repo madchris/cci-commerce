@@ -1,0 +1,17 @@
+uuid: d4e899f8-8c23-4083-82ce-244ff092bccf
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: physical_goods
+_core:
+  default_config_hash: Mw2wWfAVxxw5SGzLsnjz8Tb_wQcrQ5zFyIX0e1ymHPs
+label: chèque
+id: cheque
+purchasableEntityType: commerce_product_variation
+orderType: cheque
+traits: {  }
+locked: false

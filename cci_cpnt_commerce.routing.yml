@@ -1,0 +1,7 @@
+cci_cpnt_commerce.session_subscribe:
+  path: '/product/sessions/reservation/{node_id}/{variation_id}'
+  defaults:
+    _controller: '\Drupal\cci_cpnt_commerce\Controller\cciSessionModalFormController::openModalForm'
+    _title: "Souscrire à des sessions"
+  requirements:
+    _permission: 'access checkout'

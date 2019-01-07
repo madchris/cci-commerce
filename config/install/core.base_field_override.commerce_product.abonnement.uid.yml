@@ -1,0 +1,22 @@
+uuid: f59bb682-2b5e-4e08-adf5-e1bdbcf549ca
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.abonnement
+_core:
+  default_config_hash: lSpp7y3bHbY_NYFG3aE7DbEqF1zC7M9FVUniJtjiJsQ
+id: commerce_product.abonnement.uid
+field_name: uid
+entity_type: commerce_product
+bundle: abonnement
+label: Author
+description: 'The product author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\Product::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

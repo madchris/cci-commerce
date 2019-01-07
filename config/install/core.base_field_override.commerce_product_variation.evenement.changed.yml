@@ -1,0 +1,20 @@
+uuid: 0a598166-60eb-41ff-a840-7467111ca0f5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.evenement
+_core:
+  default_config_hash: ca6_8g0WRsaeceefj6OMZtSZVZNuMqP7NNDl4opR_5M
+id: commerce_product_variation.evenement.changed
+field_name: changed
+entity_type: commerce_product_variation
+bundle: evenement
+label: Changed
+description: 'The time when the variation was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

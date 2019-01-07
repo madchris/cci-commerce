@@ -1,0 +1,44 @@
+uuid: f46a7e8c-411e-4604-a4e5-5b7e0b3e1602
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.evenement
+    - core.entity_view_mode.commerce_product.add_to_cart
+    - field.field.commerce_product.evenement.stores
+    - field.field.commerce_product.evenement.variations
+  module:
+    - commerce_product
+    - panelizer
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: w0jEuH8XQ_ZPymR0783WheY4NlymRrD4zCWNN_uIBQ4
+id: commerce_product.evenement.add_to_cart
+targetEntityType: commerce_product
+bundle: evenement
+mode: add_to_cart
+content:
+  add_to_cart_link:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  variations:
+    type: commerce_add_to_cart
+    weight: 0
+    label: hidden
+    settings:
+      combine: true
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  langcode: true
+  stores: true
+  title: true
+  uid: true

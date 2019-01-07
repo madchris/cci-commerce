@@ -1,0 +1,14 @@
+uuid: 2205bb49-28fd-4c40-a13f-64087bc17253
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: commerce_product_variation.add_to_cart
+label: 'add to cart'
+targetEntityType: commerce_product_variation
+cache: true

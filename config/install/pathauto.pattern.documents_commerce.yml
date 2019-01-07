@@ -1,0 +1,25 @@
+uuid: f27ac0b1-d062-4c4b-8762-c19c1680e37e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+_core:
+  default_config_hash: zZYOPy_v5ZGWR6JwvueDgfzrPsVP-Ipuat2GMc_VN6k
+id: documents_commerce
+label: 'documents commerce'
+type: 'canonical_entities:commerce_product'
+pattern: 'documents/[commerce_product:title]'
+selection_criteria:
+  fdf93e37-f606-4550-8236-d1b9d3a564da:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      document: document
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: fdf93e37-f606-4550-8236-d1b9d3a564da
+selection_logic: and
+weight: -5
+relationships: {  }

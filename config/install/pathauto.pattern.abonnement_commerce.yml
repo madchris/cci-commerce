@@ -1,0 +1,25 @@
+uuid: a76f0673-8ba9-427b-a131-2d61456f7d83
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - ctools
+_core:
+  default_config_hash: 5Uax3qrWxY9DtgnBSxEXTvUnT_HZpPUM2r0qCT3v5Ck
+id: abonnement_commerce
+label: 'abonnement commerce'
+type: 'canonical_entities:commerce_product'
+pattern: 'abonnements/[commerce_product:title]'
+selection_criteria:
+  dbf1777b-4c92-45b3-af13-e2d16340f7b9:
+    id: 'entity_bundle:commerce_product'
+    bundles:
+      abonnement: abonnement
+    negate: false
+    context_mapping:
+      commerce_product: commerce_product
+    uuid: dbf1777b-4c92-45b3-af13-e2d16340f7b9
+selection_logic: and
+weight: -5
+relationships: {  }

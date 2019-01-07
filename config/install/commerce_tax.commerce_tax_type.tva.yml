@@ -1,0 +1,11 @@
+uuid: 07528bd2-184b-4113-b52b-e8e33f9e6c7b
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Jdjz_5JI4rSXrZIASROSVEK9OG146Lxi8cYZx5e4E4w
+id: tva
+label: TVA
+plugin: european_union_vat
+configuration:
+  display_inclusive: true

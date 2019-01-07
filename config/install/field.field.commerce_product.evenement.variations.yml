@@ -1,0 +1,26 @@
+uuid: b51b0289-732e-4380-97c4-57a0202e373d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.evenement
+    - commerce_product.commerce_product_variation_type.evenement
+    - field.storage.commerce_product.variations
+_core:
+  default_config_hash: 2J_tDZbbnDBxo2GN5poB8Gp3m33Oou0tisakj6h2-I8
+id: commerce_product.evenement.variations
+field_name: variations
+entity_type: commerce_product
+bundle: evenement
+label: Variations
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      - evenement
+field_type: entity_reference

@@ -1,0 +1,16 @@
+uuid: 684d09e1-2375-4d49-a32f-801d68ef6b19
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+_core:
+  default_config_hash: ZfsWeL35HclwE-AER9yzAkZXhjZo4EYB-f4gmO8ib7c
+id: commerce_product_variation.token
+label: Token
+targetEntityType: commerce_product_variation
+cache: true

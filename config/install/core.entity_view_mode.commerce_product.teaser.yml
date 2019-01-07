@@ -1,0 +1,16 @@
+uuid: 3c734752-f04c-4785-81a2-e656c644e4cb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+_core:
+  default_config_hash: znLA2-quMLMZ9SRfbAPF90UBXOCtazNaI1HyCk5kZnc
+id: commerce_product.teaser
+label: teaser
+targetEntityType: commerce_product
+cache: true

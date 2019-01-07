@@ -1,0 +1,13 @@
+uuid: 4b2b57aa-d899-4f94-a363-a9b751ca0f7e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.evenement
+_core:
+  default_config_hash: GJJY97wg1E6SIaIbKS2my_Se2uAu9mbPxLluDUiLlAs
+id: commerce_product_variation.evenement
+target_entity_type_id: commerce_product_variation
+target_bundle: evenement
+default_langcode: site_default
+language_alterable: false

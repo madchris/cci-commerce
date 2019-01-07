@@ -1,0 +1,20 @@
+uuid: 5899ac9a-5200-4f93-8bb0-b3f78b1b3ed5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.evenement
+_core:
+  default_config_hash: lCAZ-I1NHzd7JOoildsVSwCLfyxg4mBCve8spgaO0m0
+id: commerce_product.evenement.changed
+field_name: changed
+entity_type: commerce_product
+bundle: evenement
+label: Changed
+description: 'The time when the product was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,16 @@
+uuid: e90edba3-0212-4633-b8fe-068d3c327a9f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_payment
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+_core:
+  default_config_hash: LC-YuwEqGivBikyiV8w-0-2XpENs4p7zSA3jEnBruo0
+id: commerce_payment_method.token
+label: Token
+targetEntityType: commerce_payment_method
+cache: true

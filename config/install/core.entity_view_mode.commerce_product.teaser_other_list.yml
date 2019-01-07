@@ -1,0 +1,16 @@
+uuid: 54c5f255-7a7e-4734-9dde-af9f3698efa7
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+_core:
+  default_config_hash: vUDENLVKe2KRU5bJEZNAdSJA0IJHkHNwNWRag8ZdUL0
+id: commerce_product.teaser_other_list
+label: 'teaser other list'
+targetEntityType: commerce_product
+cache: true

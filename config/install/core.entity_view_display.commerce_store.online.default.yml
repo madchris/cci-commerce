@@ -1,0 +1,30 @@
+uuid: 443a24dc-95ce-42ba-bd25-ca15b98b416e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+  module:
+    - address
+_core:
+  default_config_hash: OGcDqeYN5U_5tN7z2NCJA9kLwbTfgvEbBRN0mS81fRg
+id: commerce_store.online.default
+targetEntityType: commerce_store
+bundle: online
+mode: default
+content:
+  address:
+    type: address_default
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  billing_countries: true
+  default_currency: true
+  langcode: true
+  mail: true
+  name: true
+  prices_include_tax: true
+  tax_registrations: true

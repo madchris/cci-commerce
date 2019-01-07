@@ -1,0 +1,35 @@
+uuid: 98aeab98-6043-44ee-b976-59c8e842f8b4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.default
+    - core.entity_form_mode.commerce_order_item.add_to_cart
+  enforced:
+    module:
+      - commerce_cart
+      - commerce_product
+  module:
+    - cci_main
+_core:
+  default_config_hash: aaBsBHLjKkq_GT01fM3LtulekzFO8ba2O_BTNqLExCs
+id: commerce_order_item.default.add_to_cart
+targetEntityType: commerce_order_item
+bundle: default
+mode: add_to_cart
+content:
+  purchased_entity:
+    type: commerce_product_variation_entity
+    weight: 0
+    settings:
+      label_display: '1'
+      label_text: 'Sélectionnez une option'
+      view_mode: add_to_cart
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  quantity: true
+  status: true
+  uid: true
+  unit_price: true

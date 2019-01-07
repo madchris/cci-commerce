@@ -1,0 +1,16 @@
+uuid: d6bb7f8c-fd98-4959-b12e-6577b90162cb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+_core:
+  default_config_hash: bq1pn0T-kHaWs9j7JHr6RA5dbkNXW7W6nqv-Mwelv_o
+id: commerce_product.cart
+label: cart
+targetEntityType: commerce_product
+cache: true

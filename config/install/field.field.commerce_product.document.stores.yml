@@ -1,0 +1,23 @@
+uuid: 0e3db819-bab0-4d54-9dcc-2f6dfbc89930
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+    - field.storage.commerce_product.stores
+_core:
+  default_config_hash: jlplilb3Ukm-XWJ4TuMcg6_83jyk1oCtU0BrC7-ogSk
+id: commerce_product.document.stores
+field_name: stores
+entity_type: commerce_product
+bundle: document
+label: Stores
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  handler: 'default:commerce_store'
+  handler_settings: {  }
+field_type: entity_reference

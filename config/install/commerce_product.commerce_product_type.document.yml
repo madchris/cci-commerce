@@ -1,0 +1,14 @@
+uuid: 90e86838-9cfe-4ccb-b30e-751b1a6a017c
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: IgN3x6gVGPVmLRu1sf7Mq6vuvO3NLPwPJ8_-NBDnRJo
+id: document
+label: document
+description: ''
+variationType: document
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false

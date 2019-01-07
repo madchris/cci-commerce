@@ -1,0 +1,24 @@
+uuid: 81030e31-5f9c-49a1-aaa7-04952e7486d0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+_core:
+  default_config_hash: MK57JOJSxvCEZc0dEW-9Q_SDy4e5hMPbEFpAgMx-ghU
+id: commerce_product.document.status
+field_name: status
+entity_type: commerce_product
+bundle: document
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,14 @@
+uuid: 0f7fe9ea-b580-4d2f-8732-ed71599550ef
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    description: ''
+id: commerce_product.add_to_cart
+label: 'add to cart'
+targetEntityType: commerce_product
+cache: true

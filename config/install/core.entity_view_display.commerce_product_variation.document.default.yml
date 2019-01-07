@@ -1,0 +1,33 @@
+uuid: f88de554-9782-400d-a213-0de9c8015240
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.document
+    - field.field.commerce_product_variation.document.field_file
+  module:
+    - commerce_price
+_core:
+  default_config_hash: ll8Im9sGpYy9_0AdWv37NtCfHmLTrWFeH6NA3BVw8i0
+id: commerce_product_variation.document.default
+targetEntityType: commerce_product_variation
+bundle: document
+mode: default
+content:
+  price:
+    label: hidden
+    type: commerce_price_default
+    weight: 0
+    region: content
+    settings:
+      strip_trailing_zeroes: false
+      currency_display: symbol
+    third_party_settings: {  }
+hidden:
+  add_to_cart_link: true
+  field_file: true
+  langcode: true
+  list_price: true
+  product_id: true
+  sku: true
+  title: true

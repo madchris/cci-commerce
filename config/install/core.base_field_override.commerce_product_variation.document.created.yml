@@ -1,0 +1,20 @@
+uuid: 8374132b-d435-4bbe-a9d8-319dff6cefb0
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.document
+_core:
+  default_config_hash: cdxpbMa1grqmNhFWSvf1_n2D3vG1okWW_-1pJzf9FV4
+id: commerce_product_variation.document.created
+field_name: created
+entity_type: commerce_product_variation
+bundle: document
+label: Created
+description: 'The time when the variation was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

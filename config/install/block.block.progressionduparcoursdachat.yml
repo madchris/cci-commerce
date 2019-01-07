@@ -1,0 +1,22 @@
+uuid: e01ba8f9-1192-4a06-a8d6-9ec38f61d0a4
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_checkout
+  theme:
+    - cci_drome_theme
+_core:
+  default_config_hash: 9dNwTGp53BAXjZQKQppZoUSUKDUG-KZxraNkzBipMjI
+id: progressionduparcoursdachat
+theme: cci_drome_theme
+region: content
+weight: -6
+provider: null
+plugin: commerce_checkout_progress
+settings:
+  id: commerce_checkout_progress
+  label: 'Progression du parcours d''achat'
+  provider: commerce_checkout
+  label_display: visible
+visibility: {  }

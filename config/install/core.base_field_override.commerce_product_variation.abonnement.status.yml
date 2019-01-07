@@ -1,0 +1,24 @@
+uuid: 81cb91f1-2778-49c6-9874-7c08b562cc5e
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.abonnement
+_core:
+  default_config_hash: fBH5hrhlsMm3Ls6-dY0azsZCOJonCBH8kvXQtlk63vg
+id: commerce_product_variation.abonnement.status
+field_name: status
+entity_type: commerce_product_variation
+bundle: abonnement
+label: Active
+description: 'Whether the variation is active.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,16 @@
+uuid: 8f8ab181-50e7-4177-8f44-af9ed32d35bb
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_order
+    - lightning_core
+third_party_settings:
+  lightning_core:
+    internal: true
+_core:
+  default_config_hash: BjNevj3yZPIw2SRTbkRprRH9kizPbaK-MTTYDj2ISRc
+id: commerce_order.token
+label: Token
+targetEntityType: commerce_order
+cache: true

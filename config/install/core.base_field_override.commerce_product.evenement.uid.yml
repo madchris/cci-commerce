@@ -1,0 +1,22 @@
+uuid: 26df72c1-3e99-4219-86bd-fda10915aa12
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.evenement
+_core:
+  default_config_hash: SuQWlMHWNbcjq5TvZP_UDsPH3RqgaozR7ppmooHFIy8
+id: commerce_product.evenement.uid
+field_name: uid
+entity_type: commerce_product
+bundle: evenement
+label: Author
+description: 'The product author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\commerce_product\Entity\Product::getCurrentUserId'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

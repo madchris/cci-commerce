@@ -1,0 +1,12 @@
+uuid: d1090695-dd7e-4fe4-8521-744d612565c6
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: _RPum-mOUPC9WBtKXCdbUBqclx2-VnWu9Obbl9jOmmY
+id: abonnement
+label: abonnement
+orderItemType: default
+generateTitle: false
+traits: {  }
+locked: false

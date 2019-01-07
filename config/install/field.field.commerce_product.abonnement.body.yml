@@ -1,0 +1,24 @@
+uuid: 6b2df21f-a53a-4930-bdc7-c7e14a0ccda5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.abonnement
+    - field.storage.commerce_product.body
+  module:
+    - text
+_core:
+  default_config_hash: emWfN_GtX0aIqELA4mU9_4B4otLLtBxfuZLg9guOWYg
+id: commerce_product.abonnement.body
+field_name: body
+entity_type: commerce_product
+bundle: abonnement
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: null
+settings:
+  display_summary: false
+field_type: text_with_summary

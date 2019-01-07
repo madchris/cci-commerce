@@ -1,0 +1,28 @@
+uuid: 067d9c75-ce54-43fa-a36b-48a6ba7367c7
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_order.commerce_order_item_type.evenement
+    - field.storage.commerce_order_item.field_session
+    - node.type.session
+id: commerce_order_item.evenement.field_session
+field_name: field_session
+entity_type: commerce_order_item
+bundle: evenement
+label: Session
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      session: session
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

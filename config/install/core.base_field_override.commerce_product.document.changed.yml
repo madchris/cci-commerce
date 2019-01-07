@@ -1,0 +1,20 @@
+uuid: f4dd0674-73aa-4953-bd06-c7045185b1f5
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.document
+_core:
+  default_config_hash: lakF58ZPJvEEH3eNq-jJZorgm9GT93_SeRqgTE406Cw
+id: commerce_product.document.changed
+field_name: changed
+entity_type: commerce_product
+bundle: document
+label: Changed
+description: 'The time when the product was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

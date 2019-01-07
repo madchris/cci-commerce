@@ -1,0 +1,4 @@
+event_session:
+  version: VERSION
+  js:
+    js/event-session.js: {}

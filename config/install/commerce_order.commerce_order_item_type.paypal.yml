@@ -1,0 +1,17 @@
+uuid: 44bb7d31-43f6-4785-b694-f3d357824a4d
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_tax
+third_party_settings:
+  commerce_tax:
+    taxable_type: physical_goods
+_core:
+  default_config_hash: N1p6FQ3StnhvPTof1W3MoJkAXnqwVj7yjAiMPHtMjc8
+label: paypal
+id: paypal
+purchasableEntityType: commerce_product_variation
+orderType: fulfill
+traits: {  }
+locked: false

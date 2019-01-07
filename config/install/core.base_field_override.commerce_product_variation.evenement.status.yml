@@ -1,0 +1,24 @@
+uuid: fb0ff9a3-71f3-46d3-badc-cc034c887bd4
+langcode: fr
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_variation_type.evenement
+_core:
+  default_config_hash: rG2BOVhG_GUWhlSyeawquVCX4w_Ft1uYhPVVa7kCDDs
+id: commerce_product_variation.evenement.status
+field_name: status
+entity_type: commerce_product_variation
+bundle: evenement
+label: Active
+description: 'Whether the variation is active.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

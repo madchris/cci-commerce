@@ -1,0 +1,14 @@
+uuid: 07e1ec56-6263-41a3-aa34-c50735e0b18b
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: iIUGUY66CXXlxjgazT1ZMxUEKQWMhrak-stdb4LEnvI
+id: abonnement
+label: abonnement
+description: ''
+variationType: abonnement
+multipleVariations: true
+injectVariationFields: true
+traits: {  }
+locked: false
