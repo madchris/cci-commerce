@@ -1,0 +1,89 @@
+uuid: 6781afa5-77d7-4188-b56d-b2b007387b23
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.evenement.body
+    - field.field.node.evenement.field_adresse
+    - field.field.node.evenement.field_date
+    - field.field.node.evenement.field_informations
+    - field.field.node.evenement.field_media
+    - field.field.node.evenement.field_metatags
+    - field.field.node.evenement.field_produit
+    - field.field.node.evenement.field_session
+    - field.field.node.evenement.field_type_evenement
+    - node.type.evenement
+  module:
+    - address
+    - datetime_range
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: unYFJSXI7lm5sO6FsvkcneGACdzR0HAPAeFSAhtxsuc
+id: node.evenement.teaser
+targetEntityType: node
+bundle: evenement
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_adresse:
+    type: address_default
+    weight: 2
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_date:
+    type: daterange_default
+    weight: 3
+    region: content
+    label: hidden
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+  field_media:
+    type: entity_reference_entity_view
+    weight: 4
+    region: content
+    label: hidden
+    settings:
+      view_mode: thumbnail
+      link: false
+    third_party_settings: {  }
+  field_produit:
+    type: entity_reference_label
+    weight: 5
+    region: content
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_informations: true
+  field_metatags: true
+  field_session: true
+  field_type_evenement: true
+  langcode: true

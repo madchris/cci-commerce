@@ -1,0 +1,111 @@
+uuid: 34c4769a-395b-460b-ad7e-8ceb11a52f6f
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.evenement.body
+    - field.field.node.evenement.field_adresse
+    - field.field.node.evenement.field_date
+    - field.field.node.evenement.field_informations
+    - field.field.node.evenement.field_media
+    - field.field.node.evenement.field_metatags
+    - field.field.node.evenement.field_produit
+    - field.field.node.evenement.field_session
+    - field.field.node.evenement.field_type_evenement
+    - node.type.evenement
+  module:
+    - address
+    - datetime_range
+    - entity_reference_revisions
+    - metatag
+    - panelizer
+    - text
+    - user
+third_party_settings:
+  panelizer:
+    enable: false
+    custom: false
+    allow: false
+    default: default
+_core:
+  default_config_hash: T_P0Z9ENMeVf2EDkIBj21XZZiuPPugCEWL-rhrUhE04
+id: node.evenement.default
+targetEntityType: node
+bundle: evenement
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_adresse:
+    weight: 8
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: address_default
+    region: content
+  field_date:
+    weight: 11
+    label: hidden
+    settings:
+      separator: '-'
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: daterange_default
+    region: content
+  field_informations:
+    type: entity_reference_revisions_entity_view
+    weight: 10
+    label: hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_media:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+      view_mode: default
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_metatags:
+    weight: 6
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_empty_formatter
+    region: content
+  field_produit:
+    weight: 12
+    label: hidden
+    settings:
+      view_mode: add_to_cart
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_session:
+    weight: 9
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  addtoany: true
+  field_type_evenement: true
+  langcode: true
