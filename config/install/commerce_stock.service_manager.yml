@@ -1,8 +1,0 @@
-default_service_id: always_in_stock
-_core:
-  default_config_hash: yG8mVN9-tPV9LfFrPg61iYJAdVtbCYq35A4o_TdxOtk
-commerce_product_variation_document_service_id: always_in_stock
-stock_events_plugin_id: core_stock_events
-commerce_product_variation_abonnement_service_id: always_in_stock
-commerce_product_variation_evenement_service_id: local_stock
-langcode: fr
